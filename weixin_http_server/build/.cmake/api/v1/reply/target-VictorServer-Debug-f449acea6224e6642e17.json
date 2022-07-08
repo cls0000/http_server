@@ -1,0 +1,387 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "VictorServer"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"Log/CMakeLists.txt",
+			"Server/CMakeLists.txt",
+			"Utils/CMakeLists.txt",
+			"EventLoop/CMakeLists.txt",
+			"HttpConn/CMakeLists.txt",
+			"Servlet/CMakeLists.txt",
+			"ConnectionPool/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 5,
+				"parent" : 9
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 5,
+				"parent" : 11
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 5,
+				"parent" : 13
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 5,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Channel"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Config"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./ConnectionPool"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./EventLoop"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./EventLoopThreadPool"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./HttpConn"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Log"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Poller"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Server"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Timer"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Utils"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Object"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Servlet"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./configor"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Channel::@45be9dc3d400116fff2f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Configure::@450292a00204b211412e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Server::@20a40c4b36ca103854cb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Servlet::@e97e7d1dccffa2929045"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Object::@d2ba7703a76a0fc95864"
+		}
+	],
+	"id" : "VictorServer::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Log/libLogger.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Server/libServer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Config/libConfigure.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Utils/libUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "EventLoop/libEventLoop.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Log/libLogger.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "EventLoopThreadPool/libEventLoopThreadPool.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "Channel/libChannel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "HttpConn/libHttpConn.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "ConnectionPool/libConnectionPool.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "Poller/libPoller.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "Timer/libTimer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Log/libLogger.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Utils/libUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "EventLoop/libEventLoop.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "EventLoopThreadPool/libEventLoopThreadPool.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "Channel/libChannel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "HttpConn/libHttpConn.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "ConnectionPool/libConnectionPool.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "Poller/libPoller.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "Timer/libTimer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Config/libConfigure.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "Servlet/libServlet.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "Object/libObject.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-lmysqlclient",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "VictorServer",
+	"nameOnDisk" : "VictorServer",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

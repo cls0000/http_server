@@ -1,0 +1,161 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "EventLoopThreadPool/libEventLoopThreadPool.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"EventLoopThreadPool/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Channel"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Config"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./ConnectionPool"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./EventLoop"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./EventLoopThreadPool"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./HttpConn"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Log"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Poller"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Server"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Timer"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Utils"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Object"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./Servlet"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/./configor"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "HttpConn::@970fc29d0bef3b7f8c1c"
+		}
+	],
+	"id" : "EventLoopThreadPool::@ea30d1b2a17327901ad2",
+	"name" : "EventLoopThreadPool",
+	"nameOnDisk" : "libEventLoopThreadPool.a",
+	"paths" : 
+	{
+		"build" : "EventLoopThreadPool",
+		"source" : "EventLoopThreadPool"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "EventLoopThreadPool/EventLoopThread.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "EventLoopThreadPool/EventLoopThreadPool.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

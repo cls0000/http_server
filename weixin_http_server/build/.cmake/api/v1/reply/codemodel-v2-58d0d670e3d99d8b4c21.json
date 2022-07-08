@@ -1,0 +1,388 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "Channel",
+					"jsonFile" : "directory-Channel-Debug-ef48e897b1202721d8a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Channel",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Config",
+					"jsonFile" : "directory-Config-Debug-9ef2330bdeb88d05e40f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Config",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ConnectionPool",
+					"jsonFile" : "directory-ConnectionPool-Debug-9e6a15305d6f05185cd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ConnectionPool",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "EventLoop",
+					"jsonFile" : "directory-EventLoop-Debug-ff6625a0709e908b59a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "EventLoop",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "EventLoopThreadPool",
+					"jsonFile" : "directory-EventLoopThreadPool-Debug-18546bccff486847ff72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "EventLoopThreadPool",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "HttpConn",
+					"jsonFile" : "directory-HttpConn-Debug-26e0aa09a385549e12d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "HttpConn",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Log",
+					"jsonFile" : "directory-Log-Debug-ade9e22a0ee4d829b7be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Log",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Poller",
+					"jsonFile" : "directory-Poller-Debug-38d769685119d7579161.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Poller",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "Server",
+					"jsonFile" : "directory-Server-Debug-32374a7e03b102ec7378.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Server",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "Servlet",
+					"jsonFile" : "directory-Servlet-Debug-3af5e5c472fb59b9806f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Servlet",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "Timer",
+					"jsonFile" : "directory-Timer-Debug-07e9798a4a08151a32d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Timer",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "Utils",
+					"jsonFile" : "directory-Utils-Debug-bed32b7478db85617514.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Utils",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "Object",
+					"jsonFile" : "directory-Object-Debug-fd7be232671c8495580e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Object",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"name" : "VictorServer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Channel::@45be9dc3d400116fff2f",
+					"jsonFile" : "target-Channel-Debug-f45115a6f6100e27380c.json",
+					"name" : "Channel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Configure::@450292a00204b211412e",
+					"jsonFile" : "target-Configure-Debug-9d90079041c754dc1708.json",
+					"name" : "Configure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ConnectionPool::@b79a828ec8c1be383d4c",
+					"jsonFile" : "target-ConnectionPool-Debug-f12819031a1a4d3afca4.json",
+					"name" : "ConnectionPool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "EventLoop::@4fb0b3092cf98dfd22d2",
+					"jsonFile" : "target-EventLoop-Debug-57c35d5432a40fbc2857.json",
+					"name" : "EventLoop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "EventLoopThreadPool::@ea30d1b2a17327901ad2",
+					"jsonFile" : "target-EventLoopThreadPool-Debug-b434dc0d7a627b15d80c.json",
+					"name" : "EventLoopThreadPool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "HttpConn::@970fc29d0bef3b7f8c1c",
+					"jsonFile" : "target-HttpConn-Debug-34213b2d1f07dc0d361e.json",
+					"name" : "HttpConn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Logger::@ff0d9bc7e1aa2b6d9e83",
+					"jsonFile" : "target-Logger-Debug-b0826243e85defdfb6ae.json",
+					"name" : "Logger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Object::@d2ba7703a76a0fc95864",
+					"jsonFile" : "target-Object-Debug-a68469329ee2eae626ec.json",
+					"name" : "Object",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Poller::@808f1966ae3884122abc",
+					"jsonFile" : "target-Poller-Debug-e9f818ffadda2820db53.json",
+					"name" : "Poller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Server::@20a40c4b36ca103854cb",
+					"jsonFile" : "target-Server-Debug-e2ffb69cf471923ec166.json",
+					"name" : "Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Servlet::@e97e7d1dccffa2929045",
+					"jsonFile" : "target-Servlet-Debug-59daa50c566fada1fc7e.json",
+					"name" : "Servlet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "Timer::@c0ec749ccf2d31a4281f",
+					"jsonFile" : "target-Timer-Debug-21d7a069449d737bc373.json",
+					"name" : "Timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Utils::@63186210bb9289bb1152",
+					"jsonFile" : "target-Utils-Debug-1942babc0ec6cf93a312.json",
+					"name" : "Utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VictorServer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VictorServer-Debug-f449acea6224e6642e17.json",
+					"name" : "VictorServer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer/build",
+		"source" : "/home/chen/work/\u5de5\u7a0b\u5b9e\u8df5/VictorServer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
